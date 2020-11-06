@@ -18,7 +18,7 @@ build:
 
 deploy:
   stage: deploy
-  image: ruby:2.3
+  image: ruby:2.4
   script:
     - apt-get update -qy
     - apt-get install -y ruby-dev
